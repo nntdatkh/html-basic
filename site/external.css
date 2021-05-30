@@ -1,0 +1,76 @@
+h2 {
+    color: red;
+    text-align: center;
+}
+
+.highlight {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: green;
+    opacity: .6;
+}
+
+#mainPoint {
+    font-size: 24px;
+    font-weight: bold;
+    /*background-color: red;*/
+}
+
+#mainPoint li {
+    list-style: none;
+}
+
+#mainPoint li:nth-child(2) {
+    font-size: 24px;
+
+}
+
+#mainPoint li ul li:nth-child(odd) {
+    background-color: green;
+    
+}
+
+#mainPoint li ul li:nth-child(2):hover {
+    background-color: gray;
+    cursor: pointer;
+    
+}
+
+p, h1 {
+    color: blue;
+    text-align: center;
+}
+
+p#pig {
+    font-size: 25px;
+}
+
+article > p {
+    color: blue;
+    /*background-color: black;*/
+}
+
+.art1 {
+    background-color: burlywood;
+}
+
+.art2 {
+    font-size: larger;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+a:hover, a:active {
+    background-color: red;;
+    color: purple;
+}
