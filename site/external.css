@@ -109,3 +109,37 @@ a:hover, a:active {
 #content {
     background-color: #90ee90;
 }
+
+.floating {
+    /* background-color: #00ffff; */
+}
+
+.floating p {
+    width: 25%;
+    /* border: 1px solid black; */
+    float: left;
+    padding: 10px;
+}
+
+.floating section {
+    clear: left;
+}
+
+#p1 {
+    /* background-color: #a52a2a; */
+    /* float: right; */
+}
+
+#p2 {
+    /* background-color: #deb887; */
+}
+
+#p3 {
+    /* background-color: #5f9ea0; */
+    
+}
+
+#p4 {
+    /* background-color: #ff7f50; */
+}
+
