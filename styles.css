@@ -11,34 +11,52 @@ h1 {
     margin-bottom: 15px;
 }
 
-p {
-    width: 90%;
-    margin: 0 auto;
-}
-
 .container {
     width: 100%;
+    height: 500px;
 }
 
 .component {
-    width: 32%;
-    margin-left: 15px;
-    border: 1px solid black;
+    width: 33.33%;
+    padding-left: 10px;
+    padding-right: 10px;
     float: left;
 }
 
-.title {
-    width: 20%;
-    margin-bottom: 10px;
-    float: right;
+.col {
+    border: 1px solid black;
+    background-color: gray;
 }
 
-.title p {
-    text-align: center;
+#chicken {
+    background-color: chocolate;
+}
+
+#beef {
+    background-color: coral;
+    color: #ffffff;
+}
+
+#sushi {
+    background-color: yellow;
+}
+
+.title {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    float: right;
     border: 1px solid black;
+    text-align: center;
+    font-weight: bold;
 }
 
 .content {
     clear: right;
-    margin-bottom: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.clear {
+    clear: left;
 }
